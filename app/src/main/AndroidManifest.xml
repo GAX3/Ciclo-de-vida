@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Ciclodevida"
         tools:targetApi="31">
         <activity
+            android:name=".DialogActivity" android:theme="@style/Theme.MaterialComponents.DayNight.Dialog" />
+
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
